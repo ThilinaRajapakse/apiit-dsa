@@ -32,10 +32,14 @@ def make_test(func):
 
 from insertion import insertion_sort
 from selection import selection_sort
+from mergesort import mergesort
 
 
 class InsertionSortTestCase(make_test(insertion_sort)):
     pass
 
 class SelectionSortTestCase(make_test(selection_sort)):
+    pass
+
+class MergeSortTestCase(make_test(mergesort)):
     pass

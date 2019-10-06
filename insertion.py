@@ -8,7 +8,7 @@ def insertion_sort(lst):
 
     return lst
 
-l = [3, 1, 5, 10, 23, 56, 4, 2]
-print(f'Initial list: {l}')
-l = insertion_sort(l)
-print(f'Sorted list: {l}')
+# l = [3, 1, 5, 10, 23, 56, 4, 2]
+# print(f'Initial list: {l}')
+# l = insertion_sort(l)
+# print(f'Sorted list: {l}')
